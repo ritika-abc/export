@@ -1,0 +1,20 @@
+@media screen and (max-width:768px) {
+    .paid_ads .item img{
+        height: 15vh;
+    }
+}
+@media screen and (max-width:992px) {
+    .categorywithsperate .containercust{
+        width: 95%;
+    }
+    #logindiv{
+        width: 100%;
+        margin: 0;
+    }
+    .searchbar{
+        width: 100%;
+    }
+    .fixedbtn{
+        bottom:65px;
+    }
+}

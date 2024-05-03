@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B2B Portal - Tradingwaala</title>
+    <link rel="icon" href="./assets/images/icons/tradingwaalaFavicon.png">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/owl.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+
+    <header class="d-none d-lg-block">
+        <div class="container py-2">
+            <div class="row">
+                <div class="col-6">
+                    <ul class="nav justify-content-start gap-3">
+                        <li class="nav-item"><a href="tel:917982596757" class="text-decoration-none"><i class="fa-solid fa-phone fa-shake" style="color: #4dcda8;"></i> +91-7982596757</a>
+                        </li>
+                        <li class="nav-item"><a href="mailto:sales@tradingwaala.com" class="text-decoration-none"><i class="fa-regular fa-envelope fa-fade" style="color: #0227ff;"></i>
+                                sales@tradingwaala.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <ul class="nav justify-content-end gap-3">
+                        <li class="nav-item"><a href="https://www.facebook.com/tradingwaala/" class="text-decoration-none"><i class="fa-brands fa-facebook fa-flip" style="--fa-animation-duration: 2s; color: #0866ff;"></i></a>
+                        </li>
+                        <li class="nav-item"><a href="https://instagram.com/tradingwaalab2b/" class="text-decoration-none"><i class="fa-brands fa-instagram fa-flip" style="--fa-animation-duration: 2s; color: #fd5949;"></i></a>
+                        </li>
+                        <li class="nav-item"><a href="https://www.linkedin.com/company/trading-waala-b2b/" class="text-decoration-none"><i class="fa-brands fa-linkedin fa-flip" style="--fa-animation-duration: 2s; color: #0077b5;"></i></a>
+                        </li>
+                        <li class="nav-item"><a href="" class="text-decoration-none"><i class="fa-brands fa-youtube fa-flip" style="--fa-animation-duration: 2s; color: #ff0000;"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg py-3 navbar-dark">
+        <div class="container">
+            <a href="./index" class="navbar-brand"><img class="fa-bounce" src="./assets/images/icons/tradingwaalaLogo.png" alt="tradingwaala"></a>
+            <a href="./search" class="d-inline d-lg-none"><i class="fa-solid fa-magnifying-glass text-white fs-2"></i></a>
+            <div class="navbar-collapse collapse" id="mainnav">
+                <div class="navbar-nav ms-auto searchbar p-2">
+                    <form action="./user_search" autocomplete="off" class="d-block w-100">
+                        <div class="container">
+                            <div class="row gx-0">
+                                <div class="col-3">
+                                    <select name="type" id="">
+                                        <option value="product">Product</option>
+                                        <option value="buyers">Buyers</option>
+                                    </select>
+                                </div>
+                                <div class="col-9">
+                                    <input type="text" class="border-start border-dark" name="info" id="" placeholder="Enter Product or Service" required title="Please Fill out This Field">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="./admin/login" class="nav-link" target="_blank">Add Listing</a></li>
+                                            <li class="nav-item"><a href="./login" class="nav-link">Login</a></li>
+                                    </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container py-5 category">
+        <h2 class="text-center mb-5">Agriculture</h2>
+        <div class="row">
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-3" title="Agricultural Fibers">
+                <a href="sub_cat.html" class="text-decoration-none">
+                    <div class="text-center catcard p-2">
+                        <img src="./super_admin/assets/sub_category/Agricultural Fibers.jpg" class="img-fluid" alt="Agricultural Fibers">
+                        <p class="pt-3 text-dark mb-0">Agricultural Fi...</p>
+                    </div>
+                </a>
+            </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-3" title="Agriculture Seeds">
+                <a href="./product?sub_cat_id=2" class="text-decoration-none">
+                    <div class="text-center catcard p-2">
+                        <img src="./super_admin/assets/sub_category/Agriculture Seeds.jpg" class="img-fluid" alt="Agriculture Seeds">
+                        <p class="pt-3 text-dark mb-0">Agriculture See...</p>
+                    </div>
+                </a>
+            </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-3" title="Agro Products">
+                <a href="./product?sub_cat_id=3" class="text-decoration-none">
+                    <div class="text-center catcard p-2">
+                        <img src="./super_admin/assets/sub_category/Agro Products.jpg" class="img-fluid" alt="Agro Products">
+                        <p class="pt-3 text-dark mb-0">Agro Products</p>
+                    </div>
+                </a>
+            </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-3" title="Beans">
+                <a href="./product?sub_cat_id=4" class="text-decoration-none">
+                    <div class="text-center catcard p-2">
+                        <img src="./super_admin/assets/sub_category/Beans.jpg" class="img-fluid" alt="Beans">
+                        <p class="pt-3 text-dark mb-0">Beans</p>
+                    </div>
+                </a>
+            </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-3" title="Farming & Agricultural Consultant">
+                <a href="./product?sub_cat_id=5" class="text-decoration-none">
+                    <div class="text-center catcard p-2">
+                        <img src="./super_admin/assets/sub_category/Farming & Agricultural Consultant.jpg" class="img-fluid" alt="Farming & Agricultural Consultant">
+                        <p class="pt-3 text-dark mb-0">Farming & Agric...</p>
+                    </div>
+                </a>
+            </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-3" title="Farming Tools, Equipment & Machines">
+                <a href="./product?sub_cat_id=6" class="text-decoration-none">
+                    <div class="text-center catcard p-2">
+                        <img src="./super_admin/assets/sub_category/Farming Tools, Equipment & Machines.jpg" class="img-fluid" alt="Farming Tools, Equipment & Machines">
+                        <p class="pt-3 text-dark mb-0">Farming Tools, ...</p>
+                    </div>
+                </a>
+            </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-3" title="Fertilizers & Soil Additives">
+                <a href="./product?sub_cat_id=7" class="text-decoration-none">
+                    <div class="text-center catcard p-2">
+                        <img src="./super_admin/assets/sub_category/Fertilizers & Soil Additives.jpg" class="img-fluid" alt="Fertilizers & Soil Additives">
+                        <p class="pt-3 text-dark mb-0">Fertilizers & S...</p>
+                    </div>
+                </a>
+            </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-3" title="Food Grains">
+                <a href="./product?sub_cat_id=8" class="text-decoration-none">
+                    <div class="text-center catcard p-2">
+                        <img src="./super_admin/assets/sub_category/Food Grains.jpg" class="img-fluid" alt="Food Grains">
+                        <p class="pt-3 text-dark mb-0">Food Grains</p>
+                    </div>
+                </a>
+            </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-3" title="Fresh Flowers, Plants & Trees">
+                <a href="./product?sub_cat_id=9" class="text-decoration-none">
+                    <div class="text-center catcard p-2">
+                        <img src="./super_admin/assets/sub_category/Fresh Flowers, Plants & Trees.jpg" class="img-fluid" alt="Fresh Flowers, Plants & Trees">
+                        <p class="pt-3 text-dark mb-0">Fresh Flowers, ...</p>
+                    </div>
+                </a>
+            </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-3" title="Horticulture & Garden Tools">
+                <a href="./product?sub_cat_id=10" class="text-decoration-none">
+                    <div class="text-center catcard p-2">
+                        <img src="./super_admin/assets/sub_category/Horticulture & Garden Tools.jpg" class="img-fluid" alt="Horticulture & Garden Tools">
+                        <p class="pt-3 text-dark mb-0">Horticulture & ...</p>
+                    </div>
+                </a>
+            </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-3" title="Irrigation & Watering Supplies">
+                <a href="./product?sub_cat_id=11" class="text-decoration-none">
+                    <div class="text-center catcard p-2">
+                        <img src="./super_admin/assets/sub_category/Irrigation & Watering Supplies.jpg" class="img-fluid" alt="Irrigation & Watering Supplies">
+                        <p class="pt-3 text-dark mb-0">Irrigation & Wa...</p>
+                    </div>
+                </a>
+            </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-3" title="Organic & Fresh Fruits">
+                <a href="./product?sub_cat_id=12" class="text-decoration-none">
+                    <div class="text-center catcard p-2">
+                        <img src="./super_admin/assets/sub_category/Organic & Fresh Fruits.jpg" class="img-fluid" alt="Organic & Fresh Fruits">
+                        <p class="pt-3 text-dark mb-0">Organic & Fresh...</p>
+                    </div>
+                </a>
+            </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-3" title="Poultry Animals, Farming Animals and Pet Animals">
+                <a href="./product?sub_cat_id=13" class="text-decoration-none">
+                    <div class="text-center catcard p-2">
+                        <img src="./super_admin/assets/sub_category/Poultry Animals, Farming Animals and Pet Animals.jpg" class="img-fluid" alt="Poultry Animals, Farming Animals and Pet Animals">
+                        <p class="pt-3 text-dark mb-0">Poultry Animals...</p>
+                    </div>
+                </a>
+            </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-3" title="Poultry, Animal Feed & Bird Food">
+                <a href="./product?sub_cat_id=14" class="text-decoration-none">
+                    <div class="text-center catcard p-2">
+                        <img src="./super_admin/assets/sub_category/Poultry, Animal Feed & Bird Food.jpg" class="img-fluid" alt="Poultry, Animal Feed & Bird Food">
+                        <p class="pt-3 text-dark mb-0">Poultry, Animal...</p>
+                    </div>
+                </a>
+            </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-3" title="Starch, Husk & Agro Waste">
+                <a href="./product?sub_cat_id=15" class="text-decoration-none">
+                    <div class="text-center catcard p-2">
+                        <img src="./super_admin/assets/sub_category/Starch, Husk & Agro Waste.jpg" class="img-fluid" alt="Starch, Husk & Agro Waste">
+                        <p class="pt-3 text-dark mb-0">Starch, Husk & ...</p>
+                    </div>
+                </a>
+            </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-3" title="Tractor & Tractor Parts">
+                <a href="./product?sub_cat_id=16" class="text-decoration-none">
+                    <div class="text-center catcard p-2">
+                        <img src="./super_admin/assets/sub_category/Tractor & Tractor Parts.jpg" class="img-fluid" alt="Tractor & Tractor Parts">
+                        <p class="pt-3 text-dark mb-0">Tractor & Tract...</p>
+                    </div>
+                </a>
+            </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-3" title="Vegetables">
+                <a href="./product?sub_cat_id=17" class="text-decoration-none">
+                    <div class="text-center catcard p-2">
+                        <img src="./super_admin/assets/sub_category/Vegetables.jpg" class="img-fluid" alt="Vegetables">
+                        <p class="pt-3 text-dark mb-0">Vegetables</p>
+                    </div>
+                </a>
+            </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-3" title="R&D & Testing Labs">
+                <a href="./product?sub_cat_id=103" class="text-decoration-none">
+                    <div class="text-center catcard p-2">
+                        <img src="./super_admin/assets/sub_category/R&D & Testing Labs.jpg" class="img-fluid" alt="R&D & Testing Labs">
+                        <p class="pt-3 text-dark mb-0">R&D & Testing L...</p>
+                    </div>
+                </a>
+            </div>
+                        <div class="col-6 col-sm-6 col-md-4 col-lg-2 mb-3" title="Pipe & Tube Plumbing Fittings">
+                <a href="./product?sub_cat_id=153" class="text-decoration-none">
+                    <div class="text-center catcard p-2">
+                        <img src="./super_admin/assets/sub_category/Pipe & Tube Plumbing Fittings.jpg" class="img-fluid" alt="Pipe & Tube Plumbing Fittings">
+                        <p class="pt-3 text-dark mb-0">Pipe & Tube Plu...</p>
+                    </div>
+                </a>
+            </div>
+                    </div>
+    </div>
+
+<section class="appfooter d-block d-md-none bgnew">
+    <div class="container py-2">
+        <div class="row">
+            <div class="col-3 text-center border-white border-end">
+                <a href="./index" class="text-decoration-none">
+                    <i class="fa-solid fa-house"></i>
+                    <p class="mb-0 text-white">Home</p>
+                </a>
+            </div>
+            <div class="col-3 text-center border-white border-end">
+                <a href="./category" class="text-decoration-none">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <p class="mb-0 text-white">Category</p>
+                </a>
+            </div>
+            <div class="col-3 text-center border-white border-end">
+                <a href="./admin/login" class="text-decoration-none">
+                    <i class="fa-solid fa-list"></i>
+                    <p class="mb-0 text-white">Add Listing</p>
+                </a>
+            </div>
+            <div class="col-3 text-center">
+                            <a href="./login" class="text-decoration-none">
+                    <i class="fa-solid fa-user"></i>
+                    <p class="mb-0 text-white">Login</p>
+                </a>
+                        </div>
+        </div>
+    </div>
+</section>
+<footer class="pb-3">
+    <div class="text-center pt-5">
+        <a href="./index">
+            <img class="fa-fade" src="./assets/images/icons/tradingwaalaLogo.png" alt="">
+        </a>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-3">
+                <p class="fw-bold">UseFul Links</p>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="./about" class="nav-link fs-14">About Us</a></li>
+                    <li class="nav-item"><a href="./ads" class="nav-link fs-14">Advertisment With Us</a></li>
+                    <li class="nav-item"><a href="./refund" class="nav-link fs-14">Refund</a></li>
+                    <li class="nav-item"><a href="./privacy" class="nav-link fs-14">Privacy And Policy</a></li>
+                    <li class="nav-item"><a href="./term" class="nav-link fs-14">Terms And Conditons</a></li>
+                    <li class="nav-item"><a href="./contact" class="nav-link fs-14">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-3">
+                <p class="fw-bold">Buyers / Seller</p>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="./buyers" class="nav-link fs-14">Post Buy Requirements</a></li>
+                    <li class="nav-item"><a href="./admin/login" target="_blank" class="nav-link fs-14">Register For Listing</a></li>
+                    <li class="nav-item"><a href="./admin/login" target="_blank" class="nav-link fs-14">Post Listing</a></li>
+                    <li class="nav-item"><a href="./search" class="nav-link fs-14">Find Products / Services</a></li>
+                    <li class="nav-item"><a href="./feedback" class="nav-link fs-14">Give your Feedback</a></li>
+                    <li class="nav-item"><a href="./complaint" class="nav-link fs-14">Submit A Complaint</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-3">
+                <p class="fw-bold">Contact Us</p>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="mailto:sales@tradingwaala.com" class="nav-link fs-14">Offical
+                            Email :- sales@tradingwaala.com</a></li>
+                    <li class="nav-item"><a href="mailto:info@tradingwaala.com" class="nav-link fs-14">Support Email :-
+                            info@tradingwaala.com</a></li>
+                    <li class="nav-item"><a href="tel:917982596757" class="nav-link fs-14">Call Us : +91-7982596757</a>
+                    </li>
+                </ul>
+                <ul class="nav gap-3">
+                    <li class="nav-item"><a href="https://www.facebook.com/tradingwaala/" class="text-decoration-none"><i class="fa-brands fa-facebook fa-flip" style="--fa-animation-duration: 2s; color: white;"></i></a>
+                    </li>
+                    <li class="nav-item"><a href="https://instagram.com/tradingwaalab2b/" class="text-decoration-none"><i class="fa-brands fa-instagram fa-flip" style="--fa-animation-duration: 2s; color: white;"></i></a>
+                    </li>
+                    <li class="nav-item"><a href="https://www.linkedin.com/company/trading-waala-b2b/" class="text-decoration-none"><i class="fa-brands fa-linkedin fa-flip" style="--fa-animation-duration: 2s; color: white;"></i></a>
+                    </li>
+                    <li class="nav-item"><a href="" class="text-decoration-none"><i class="fa-brands fa-youtube fa-flip" style="--fa-animation-duration: 2s; color: white;"></i></a>
+                    </li>
+                </ul>
+                <div class="row mt-3">
+                    <div class="col-6">
+                        <img src="./assets/images/icons/google.png" width="80%" alt="Play Store">
+                    </div>
+                    <div class="col-6">
+                        <img src="./assets/images/icons/ios.png" width="80%" alt="IOS Store">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<p class="mb-0 py-3 text-center fs-14 mb-5 mb-md-0">©
+    <script>
+        document.write(new Date().getFullYear());
+    </script> All right reseverd & TradingWaala || Developed By <a href="https://faustatechnologies.com/" class="text-decoration-none fw-bold">Fausta Technologies</a>
+</p>
+<a class="text-decoration-none p-3 fixedbtn" href="./buyers">Post Buy Requirements</a>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/owl.js"></script>
+<script src="assets/js/index.js"></script>
+<script src="assets/ajax/ajax.js"></script>
+</body>
+</html>

@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --f-color : --#0227ff;
+    --s-color : --#4dcda8;
+}
+::-webkit-scrollbar {
+    width: 3px;
+  }
+::-webkit-scrollbar-track {
+    background: black; 
+}
+::-webkit-scrollbar-thumb {
+    background: white;
+}
+header a{
+    color: black;
+    transition: 0.5s;
+}
+header a:hover{
+    color: black;
+    opacity: 0.7;
+}
+nav{
+    background: black;
+    position: sticky !important;
+    top: 0;
+    z-index: 10;
+}
+nav .nav-link{
+    color: white !important;
+    transition: 0.5s;
+}
+nav .nav-link:hover{
+    color: white !important;
+    opacity: 0.7;
+}
+.category a{
+    color: black;
+    font-size: 14px;
+}
+.category .dropdown-menu{
+    width: 90%;
+}
+.category .dropdown-menu{
+    transform: translate(60px, 148px) !important;
+}
+.category .dropdown-menu a{
+    text-decoration: none;
+}
+.paid_ads .item img{
+    height: 50vh;
+}
+.categorywithimg .card{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    transition: 0.5s;
+}
+.categorywithimg .card:hover{
+    border: none;
+    opacity: 0.5;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.categorywithover{
+    background:#a0a0a03d;
+}
+.categorywithover #catview{
+    width: 95%;
+    margin: auto;
+}
+.categorywithover #catview .col-12 .row{
+    background: white;
+}
+.categorywithover #catview .card{
+    border-radius: 10px  !important;
+    overflow: hidden;
+}
+.categorywithover #catview .card p{
+    text-align: center;
+    font-size: 12px;
+}
+.categorywithover #catview .card a{
+    font-size: 12px;
+    color: white;
+    /* background:linear-gradient(#b5f398,#cd8b4d); */
+    background:rgb(3, 12, 145);
+}
+.categorywithover #catview .card a:hover{
+    color: white;
+    background:linear-gradient(#132253,#0227ff);
+}
+.categorywithsperate hr{
+    opacity: 1;
+}
+.categorywithsperate{
+    background: #a0a0a03d;
+}
+.categorywithsperate .categorywithsperatebg{
+    background: white;
+}
+.categorywithsperate .containercust{
+    width: 90%;
+    margin: auto;
+}
+.categorywithsperate .containercust p{
+   font-size: 12px;
+}
+.moreforyou p{
+    font-size: 12px;
+}
+footer{
+    background: black;
+}
+footer p{
+    color: white;
+}
+footer a{
+    color: white !important;
+}
+footer li{
+    color: white ;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-12{
+    font-size: 12px;
+}
+.checkform form input {
+    outline: none;
+    width: 100%;
+    padding: 10px 10px;
+}
+.checkform form button {
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    border: 1px solid black;
+    background-color: black !important;
+    color: white;
+    transition: 0.8s;
+}
+.checkform form button:hover {
+    background-color: white !important;
+    color: black;
+}
+#logindiv{
+    width: 60%;
+    margin: auto;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    background: rgba(255, 255, 255, 0.384);
+}
+.loginpagebg{
+    background: url('../images/banner/loginpage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgads{
+    background: url('../images/banner/bgads.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+
+}
+.bgnew{
+    background: black;
+}
+.adscard{
+    transition: 0.5s;
+    background:linear-gradient(-45deg, #E5E3E8, #FAFAFA);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* background: linear-gradient(-45deg, #00A1AB, #3741A0); */
+    border-radius: 8px;
+}
+.adscard:hover{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background:linear-gradient(-45deg, #FAFAFA, #E5E3E8);
+}
+.adscard p{
+    font-size: 14px;
+}
+.adscard button{
+    padding: 10px 15px;
+    border: none;
+    background:linear-gradient(#0227ff,#4dcda8);
+    color: white;
+    transition: 0.5;
+}
+
+.adscard button:hover{
+    opacity: 0.9;
+    color: white;
+    background:linear-gradient(#4dcda8,#0227ff);
+}
+.contactPageForm input{
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+    padding: 15px 10px;
+    color: black !important;
+}
+.contactPageForm input::placeholder{
+    color: black !important;
+}
+.contactPageForm button{
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    border: 1px solid black;
+    background: black;
+    color: white;
+}
+.contactPageForm button:hover{
+    border: 1px solid black;
+    background: white;
+    color: black;
+}
+.contactPageForm input::placeholder{
+    color: black !important;
+}
+.contactPageForm textarea{
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+    outline: none;
+    padding: 10px 10px;
+}
+.contactPageForm textarea::placeholder{
+    color: black !important;
+}
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.category .catcard{
+    transition: 0.5s;
+    background:linear-gradient(-45deg, #E5E3E8, #FAFAFA);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 8px;
+}
+.category .catcard:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background:linear-gradient(-45deg, #FAFAFA, #E5E3E8);
+}
+.productdetail button{
+    padding: 10px 15px;
+    border: none;
+    background:linear-gradient(#0227ff,#4dcda8);
+    color: white;
+    transition: 0.5;
+}
+.productdetail button:hover{
+    opacity: 0.9;
+    color: white;
+    background:linear-gradient(#4dcda8,#0227ff);
+}
+.productdetailpage{
+    background:linear-gradient(-45deg, #FAFAFA, #E5E3E8);
+    box-shadow: #4dcda970 0px 7px 29px 0px;
+}
+.creativebanner{
+    width: 100%;
+    height: 100%;
+    background: url('../images/banner/creativebanner.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.appfooter{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+}
+.appfooter p{
+    font-size: 12px;
+}
+.appfooter i{
+    font-size: 25px;
+    color: white;
+}
+.productdetail .productdetailcard{
+    border: 1px solid rgba(128, 128, 128, 0.096);
+    transition: 0.5;
+    border-radius: 10px;
+}
+.productdetail .productdetailcard button{
+    display: block;
+    width: 100%;
+}
+.productdetail .productdetailcard img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    margin: auto;
+}
+.productdetail .productdetailcard:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.settingpage a:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.searchbar form select{
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+    background: transparent;
+}
+.searchbar form input{
+    display: block;
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+    width: 100%;
+}
+.searchbar form input::placeholder{
+    font-size: 14px;
+}
+.searchbar{
+    border: 1px solid white;
+    background: white;
+    border-radius: 20px;
+    width: 50%;
+}
+#rowcss{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.buyersform input{
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+}
+.buyersform input::placeholder{
+    color: black;
+    font-size: 12px;
+}
+.buyersform select{
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    display: block;
+    width: 100%;
+    padding: 14px 6px;
+    color: black;
+    font-size: 12px;
+    background: transparent;
+}
+.buyersform select option{
+    color: black;
+    font-size: 14px;
+}
+.buyersform button{
+    border: none;
+    outline: none;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+.buyersform button:hover{
+    color: black;
+    background-color: white;
+}
+#buyerspage p{
+    text-align: justify;
+}
+
+#buyerspage .card{
+    background: transparent;
+    transition: 0.5s;
+}
+#buyerspage .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.fixedbtn{
+    position:fixed;
+    bottom:0;
+    right:0;
+    z-index:10;
+    border:2px dashed white;
+    background: black;
+    color: white;
+    animation: what 2s linear infinite;
+    font-weight:bold;
+    transition: 0.5s;
+}
+.fixedbtn:hover{
+    border:2px dashed black;
+    background: white;
+    color: black;
+}
+@keyframes what{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+.cat_text a{
+font-size: 12px;
+text-decoration: none;
+}
+.box-shadow{
+    box
+}
